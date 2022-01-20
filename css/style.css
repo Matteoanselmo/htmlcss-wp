@@ -22,10 +22,11 @@
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
+    filter: brightness(65%);
     height: 400px;
     background-color: rgb(225, 214, 122);
-    margin-bottom: 10px;
-    border-radius: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .clearfix::after {
@@ -35,23 +36,25 @@
 }
 
 .container-blu{
-    height: 400px;
+    /* height: 400px; */
     background-color: rgb(1, 134, 255);
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .c-top{
-    height: 40px;
-    background-color: rgb(171, 207, 231);
-    margin-bottom: 10px;
+    /* height: 40px;
+    background-color: rgb(171, 207, 231); */
+    margin-bottom: 20px;
+    font-family: sans-serif;
 }
 
 .c-sub{
-    height: 85%;
+        height: 85%;
     float: left;
-}
+} 
 
 .c-small{
+
     width: calc((40% / 2) - 10px);
     background-color: rgb(171, 207, 231);
 }
@@ -98,8 +101,36 @@ li{
     color: white;
     left: 30px;
     bottom: 40px;
+    font-family: sans-serif;
 }
 
 .relative{
     position: relative;
+}
+
+.c-top span{
+    font-size: small;
+    color: lightgrey;
+}
+
+.primo{
+    height: 150px;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+filter: brightness(65%);
+}
+
+.description{
+    font-family: sans-serif;
+}
+
+.description h5{
+    margin: 10px 0;
+}
+
+.description p{
+    color: lightgrey;
+    font-size: small;
 }
