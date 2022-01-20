@@ -181,3 +181,8 @@ h4 span{
     background-color: darkslateblue;
     border-radius: 5px;
 }
+
+header:hover li{
+    background-color: darkslategray;
+    font-size: larger;
+}
