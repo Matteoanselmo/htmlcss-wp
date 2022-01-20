@@ -176,6 +176,8 @@ h4 span{
     display: none;
 }
 
-.c-small:hover .img-due,.description{
+.c-small:hover .img-due,.container-blu:hover{
     display: block;
+    background-color: darkslateblue;
+    border-radius: 5px;
 }
