@@ -6,7 +6,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
-    filter: brightness(65%);
+    filter: brightness(80%);
     height: 400px;
     background-color: rgb(225, 214, 122);
     margin-bottom: 20px;
@@ -37,7 +37,7 @@
 
 .container-blu{
     /* height: 400px; */
-    background-color: rgb(1, 134, 255);
+    /* background-color: rgb(1, 134, 255); */
     margin-bottom: 20px;
 }
 
@@ -49,19 +49,19 @@
 }
 
 .c-sub{
-        height: 85%;
+    height: 85%;
     float: left;
 } 
 
 .c-small{
 
     width: calc((40% / 2) - 10px);
-    background-color: rgb(171, 207, 231);
+    /* background-color: rgb(171, 207, 231); */
 }
 
 .c-big{
     width: 60%;
-    background-color: rgb(171, 207, 231);
+    /* background-color: rgb(171, 207, 231); */
     margin: 0 10px;
 }
 
@@ -119,7 +119,7 @@ li{
     background-size: cover;
     background-position: center;
     border-radius: 5px;
-filter: brightness(65%);
+    filter: brightness(80%);
 }
 
 .description{
@@ -133,4 +133,22 @@ filter: brightness(65%);
 .description p{
     color: lightgrey;
     font-size: small;
+}
+
+.c-big-banner{
+    height: 150px;
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    filter: brightness(80%);
+}
+
+.secondo{
+    height: 150px;
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    filter: brightness(80%);
 }
