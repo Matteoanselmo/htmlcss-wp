@@ -150,12 +150,12 @@ li{
     background-image: url(../img/img-3.jpg);
 }
 
-.c-purple h3{
+.c-purple h4{
     text-align: center;
     font-family: sans-serif;
 }
 
-h3 span{
+h4 span{
     color: red;
     font-size: x-large;
 }
