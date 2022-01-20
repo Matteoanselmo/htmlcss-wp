@@ -14,6 +14,7 @@
 .c-pink{
     /* background-color: rgb(229, 121, 230); */
     /* height: 80px; */
+    position: relative;
     margin-bottom: 20px ;
     margin-top: 10px;
 }
@@ -85,6 +86,7 @@
 }
 
 .nav-menu{
+    position: relative;
     margin-top: 10px;
 }
 
@@ -182,7 +184,45 @@ h4 span{
     border-radius: 5px;
 }
 
-header:hover li{
+/* header:hover  */
+
+li:first-child:hover{
     background-color: darkslategray;
     font-size: larger;
+    border-radius: 5px;
+}
+
+li:nth-of-type(2):hover{
+    background-color: dimgray;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+li:nth-of-type(3):hover{
+    background-color: darkred;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+li:nth-of-type(4):hover{
+    background-color: darkolivegreen;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+li:nth-of-type(5):hover{
+    background-color: darkviolet;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+li:last-child:hover{
+    background-color: darkorange;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
