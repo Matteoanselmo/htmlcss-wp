@@ -13,15 +13,19 @@
 
 .c-pink{
     background-color: rgb(229, 121, 230);
-    height: 80px;
+    /* height: 80px; */
     margin-bottom: 10px ;
     margin-top: 10px;
 }
 
 .c-yellow{
-    height: 300px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
     background-color: rgb(225, 214, 122);
     margin-bottom: 10px;
+    border-radius: 15px;
 }
 
 .clearfix::after {
@@ -61,4 +65,41 @@
 .c-purple{
     height: 50px;
     background-color: rgb(136, 1, 254);
+}
+
+/* INIZIO CONTENUTO */
+/* CONTENUTO HEADER */
+.img-logo{
+    height: 50px;   
+}
+
+.border-right-img-logo{
+    display: inline-block;
+    height: 50px;
+    border-right: 2px solid grey;
+    margin-left: 10px;
+}
+
+.nav-menu{
+    margin-top: 10px;
+}
+
+li{
+    margin-right: 2px;
+    font-size: x-small;
+    color: grey;
+    display: inline-block;
+}
+
+/* CONTENUTO BANNER */
+
+.banner-text{
+    position: absolute;
+    color: white;
+    left: 30px;
+    bottom: 40px;
+}
+
+.relative{
+    position: relative;
 }
