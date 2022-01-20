@@ -15,7 +15,7 @@
     /* background-color: rgb(229, 121, 230); */
     /* height: 80px; */
     position: relative;
-    margin-bottom: 20px ;
+    margin-bottom: 50px ;
     margin-top: 10px;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .nav-menu{
-    position: relative;
+    position: absolute;
     margin-top: 10px;
 }
 
